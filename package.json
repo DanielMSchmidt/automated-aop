@@ -1,0 +1,36 @@
+{
+  "name": "automated-aop",
+  "version": "0.0.0",
+  "description": "Automate your AOP code with ease",
+  "license": "MIT",
+  "repository": "DanielMSchmidt/automated-aop",
+  "author": {
+    "name": "Daniel Schmidt",
+    "email": "danielmschmidt92@gmail.com",
+    "url": "danielmschmidt.de"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "aop",
+    "aspect oriented programming"
+  ],
+  "dependencies": {
+    "babel-generator": "^6.11.4",
+    "babel-traverse": "^6.12.0",
+    "babel-types": "^6.11.1",
+    "babylon": "^6.8.4"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "xo": "^0.15.0"
+  }
+}
