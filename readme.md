@@ -1,6 +1,6 @@
 # automated-aop
 
-> Automate your code with ease
+> Automate your AOP instrumentation with ease
 
 This module is for you if you would like to execute code before, after or as call of another type of functions
 
